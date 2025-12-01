@@ -21,6 +21,6 @@ int	ft_putptrnull(void *ptr)
 	len = 0;
 	ptro = (unsigned long)ptr;
 	len += ft_putstr("0x");
-	len += ft_longhex(ptro, 0);
+	len += ft_hexnbr(ptro, 0);
 	return (len);
 }

@@ -54,26 +54,3 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (len);
 }
-
-/* #include <stdio.h>
-int main(void)
-{
-	printf("%c\n", 'a');
-	ft_printf("%c\n", 'a');
-	printf("%s\n", "hola");
-	ft_printf("%s\n", "hola");
-	printf("%p\n", "0x");
-	ft_printf("%p\n", "0x");
-	printf("%d\n", '9');
-	ft_printf("%d\n", '9');
-	printf("%i\n", '5');
-	ft_printf("%i\n", '5');
-	printf("%u\n", '1');
-	ft_printf("%u\n", '1');
-	printf("%x\n", 13);
-	ft_printf("%x\n", 13);
-	printf("%X\n", 13);
-	ft_printf("%X\n", 13);
-	printf("%%\n");
-	ft_printf("%%\n");
-} */

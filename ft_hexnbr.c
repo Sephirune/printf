@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "ft_printf.h"
 
-int	ft_hexnbr(unsigned int hex, int capdecimal)
+int	ft_hexnbr(unsigned long hex, int capdecimal)
 {
 	size_t	len;
 	char	*str;

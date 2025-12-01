@@ -4,8 +4,7 @@ SRCS			=	ft_printf.c \
 			ft_putnbr.c \
 			ft_hexnbr.c \
 			ft_putptrnull.c \
-			ft_putunbr.c \
-			ft_longhex.c
+			ft_putunbr.c
 OBJS			=	$(SRCS:.c=.o)
 
 CC			=	cc

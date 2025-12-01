@@ -20,9 +20,8 @@ int	ft_printf(const char *str, ...);
 int	ft_putchar(char c);
 int	ft_putstr(char *str);
 int	ft_putnbr(int i);
-int	ft_hexnbr(unsigned int hex, int capdecimal);
+int	ft_hexnbr(unsigned long hex, int capdecimal);
 int	ft_putptrnull(void *ptr);
 int	ft_putunbr(unsigned int n);
-int	ft_longhex(unsigned long hex, int capdecimal);
 
 #endif
